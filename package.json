@@ -1,0 +1,22 @@
+{
+  "name": "i18next-http-xhr-webpack",
+  "version": "0.0.1",
+  "description": "Sample project to for i18next with xhr and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i18next": "^19.4.5",
+    "i18next-http-backend": "^1.0.13"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
